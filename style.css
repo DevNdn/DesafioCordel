@@ -52,8 +52,27 @@ header,main {
     font-style: italic;
     font-weight: bold;
     position: relative; 
-    left: 10%;  
 }
 
+.module.parallax {
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+.module.parallax1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+.module.parallax2 {
+    background-image: url(imagens/background002.jpg);
+}
 
