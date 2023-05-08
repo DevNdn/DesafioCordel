@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+
+}
+
+.page-top {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 50px;
+    
+}
+
+.page-top h1 {
+    font-size: 50px;
+}
+
+.page-top h2,a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.page-top a:hover {
+    text-decoration: underline;
+}
+
