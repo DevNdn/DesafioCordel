@@ -76,7 +76,7 @@ body {
     border-radius: 3px;
     padding: 20px 20px 20px 20px;
     margin-left: 50px;
-    font-size: calc(15px + 0.390625vw);
+    font-size: clamp(2rem, 2.5vw, 3rem);
    
 }
 
