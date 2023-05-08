@@ -52,7 +52,6 @@ body {
 .module.parallax {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    /* padding-left: 50px; */
     white-space: pre-line;
     width: 100%;
     display: flex;
@@ -69,14 +68,14 @@ body {
 }
 
 .module.parallax p {
-    line-height: 8rem;
+    line-height: 2rem;
     font-family: 'Handlee', cursive;
     word-spacing: 0.5rem;
     position: relative;
     border-radius: 3px;
     padding: 20px 20px 20px 20px;
-    margin-left: 50px;
-    font-size: clamp(2rem, 2.5vw, 3rem);
+    margin-left: 30px;
+    font-size: clamp(1.5rem, 3vw +0.1rem, 4rem);
    
 }
 
